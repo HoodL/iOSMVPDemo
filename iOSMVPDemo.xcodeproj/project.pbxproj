@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DDAD12F38A048B3504A4B36 /* libPods-iOSMVPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAF941EC75A96E74F2292E0 /* libPods-iOSMVPDemo.a */; };
 		9C48431924F168C400E3F763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48431824F168C400E3F763 /* AppDelegate.m */; };
 		9C48431C24F168C400E3F763 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48431B24F168C400E3F763 /* SceneDelegate.m */; };
 		9C48431F24F168C400E3F763 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48431E24F168C400E3F763 /* ViewController.m */; };
@@ -14,9 +15,15 @@
 		9C48432424F168CE00E3F763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C48432324F168CE00E3F763 /* Assets.xcassets */; };
 		9C48432724F168CE00E3F763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C48432524F168CE00E3F763 /* LaunchScreen.storyboard */; };
 		9C48432A24F168CE00E3F763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48432924F168CE00E3F763 /* main.m */; };
+		9C48433524F16CB300E3F763 /* MVPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48433424F16CB300E3F763 /* MVPTableView.m */; };
+		9C48433824F16CCC00E3F763 /* MVPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48433724F16CCC00E3F763 /* MVPTableViewCell.m */; };
+		9C48433B24F1705400E3F763 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48433A24F1705400E3F763 /* Presenter.m */; };
+		9C48433E24F171AC00E3F763 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C48433D24F171AB00E3F763 /* UserInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3214267CBE6BC68F0F7ED437 /* Pods-iOSMVPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVPDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSMVPDemo/Pods-iOSMVPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		961CCD3FA756B1B315EA012E /* Pods-iOSMVPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMVPDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSMVPDemo/Pods-iOSMVPDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9C48431424F168C400E3F763 /* iOSMVPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMVPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C48431724F168C400E3F763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C48431824F168C400E3F763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +36,16 @@
 		9C48432624F168CE00E3F763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C48432824F168CE00E3F763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C48432924F168CE00E3F763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C48433324F16CB300E3F763 /* MVPTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPTableView.h; sourceTree = "<group>"; };
+		9C48433424F16CB300E3F763 /* MVPTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPTableView.m; sourceTree = "<group>"; };
+		9C48433624F16CCC00E3F763 /* MVPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVPTableViewCell.h; sourceTree = "<group>"; };
+		9C48433724F16CCC00E3F763 /* MVPTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPTableViewCell.m; sourceTree = "<group>"; };
+		9C48433924F1705400E3F763 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		9C48433A24F1705400E3F763 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		9C48433C24F171AB00E3F763 /* UserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		9C48433D24F171AB00E3F763 /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		9C48433F24F1888E00E3F763 /* PresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresenterProtocol.h; sourceTree = "<group>"; };
+		FDAF941EC75A96E74F2292E0 /* libPods-iOSMVPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSMVPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDAD12F38A048B3504A4B36 /* libPods-iOSMVPDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +65,8 @@
 			children = (
 				9C48431624F168C400E3F763 /* iOSMVPDemo */,
 				9C48431524F168C400E3F763 /* Products */,
+				F83B2C20B55AE3C7C9C00778 /* Pods */,
+				FDD866996A4A537CAF32CF3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,12 +81,13 @@
 		9C48431624F168C400E3F763 /* iOSMVPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9C48433024F16C1600E3F763 /* M */,
+				9C48433124F16C2100E3F763 /* V */,
+				9C48433224F16C3700E3F763 /* P */,
 				9C48431724F168C400E3F763 /* AppDelegate.h */,
 				9C48431824F168C400E3F763 /* AppDelegate.m */,
 				9C48431A24F168C400E3F763 /* SceneDelegate.h */,
 				9C48431B24F168C400E3F763 /* SceneDelegate.m */,
-				9C48431D24F168C400E3F763 /* ViewController.h */,
-				9C48431E24F168C400E3F763 /* ViewController.m */,
 				9C48432024F168C400E3F763 /* Main.storyboard */,
 				9C48432324F168CE00E3F763 /* Assets.xcassets */,
 				9C48432524F168CE00E3F763 /* LaunchScreen.storyboard */,
@@ -76,6 +97,55 @@
 			path = iOSMVPDemo;
 			sourceTree = "<group>";
 		};
+		9C48433024F16C1600E3F763 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				9C48433C24F171AB00E3F763 /* UserInfoModel.h */,
+				9C48433D24F171AB00E3F763 /* UserInfoModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		9C48433124F16C2100E3F763 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				9C48431D24F168C400E3F763 /* ViewController.h */,
+				9C48431E24F168C400E3F763 /* ViewController.m */,
+				9C48433324F16CB300E3F763 /* MVPTableView.h */,
+				9C48433424F16CB300E3F763 /* MVPTableView.m */,
+				9C48433624F16CCC00E3F763 /* MVPTableViewCell.h */,
+				9C48433724F16CCC00E3F763 /* MVPTableViewCell.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		9C48433224F16C3700E3F763 /* P */ = {
+			isa = PBXGroup;
+			children = (
+				9C48433924F1705400E3F763 /* Presenter.h */,
+				9C48433A24F1705400E3F763 /* Presenter.m */,
+				9C48433F24F1888E00E3F763 /* PresenterProtocol.h */,
+			);
+			path = P;
+			sourceTree = "<group>";
+		};
+		F83B2C20B55AE3C7C9C00778 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				961CCD3FA756B1B315EA012E /* Pods-iOSMVPDemo.debug.xcconfig */,
+				3214267CBE6BC68F0F7ED437 /* Pods-iOSMVPDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDD866996A4A537CAF32CF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDAF941EC75A96E74F2292E0 /* libPods-iOSMVPDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C48432D24F168CE00E3F763 /* Build configuration list for PBXNativeTarget "iOSMVPDemo" */;
 			buildPhases = (
+				C39B49CD2B111F7D9014C25B /* [CP] Check Pods Manifest.lock */,
 				9C48431024F168C400E3F763 /* Sources */,
 				9C48431124F168C400E3F763 /* Frameworks */,
 				9C48431224F168C400E3F763 /* Resources */,
@@ -141,6 +212,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C39B49CD2B111F7D9014C25B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSMVPDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C48431024F168C400E3F763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -149,7 +245,11 @@
 				9C48431F24F168C400E3F763 /* ViewController.m in Sources */,
 				9C48431924F168C400E3F763 /* AppDelegate.m in Sources */,
 				9C48432A24F168CE00E3F763 /* main.m in Sources */,
+				9C48433B24F1705400E3F763 /* Presenter.m in Sources */,
+				9C48433524F16CB300E3F763 /* MVPTableView.m in Sources */,
 				9C48431C24F168C400E3F763 /* SceneDelegate.m in Sources */,
+				9C48433E24F171AC00E3F763 /* UserInfoModel.m in Sources */,
+				9C48433824F16CCC00E3F763 /* MVPTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +387,13 @@
 		};
 		9C48432E24F168CE00E3F763 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961CCD3FA756B1B315EA012E /* Pods-iOSMVPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRL58ZH65T;
 				INFOPLIST_FILE = iOSMVPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +406,13 @@
 		};
 		9C48432F24F168CE00E3F763 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3214267CBE6BC68F0F7ED437 /* Pods-iOSMVPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZRL58ZH65T;
 				INFOPLIST_FILE = iOSMVPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
