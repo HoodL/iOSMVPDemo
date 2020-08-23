@@ -15,8 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 @required
 
 @optional
-//UI层传递信息给Model层
+//UI层传递信息给Model层 UI ----> Model
 -(void)didClickAddBtnWithNum:(int)num indexPath:(NSIndexPath *)indexPath;
+//Model层达到一定条件后通知UI层改变 Model ----> UI
+-(void)reloadUI;
 @end
 
 NS_ASSUME_NONNULL_END

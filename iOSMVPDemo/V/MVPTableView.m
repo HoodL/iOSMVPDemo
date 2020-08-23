@@ -11,7 +11,7 @@
 #import "Presenter.h"
 static NSString *const reuserId = @"reuserId";
 
-@interface MVPTableView() <UITableViewDataSource,UITableViewDelegate>
+@interface MVPTableView() <UITableViewDataSource,UITableViewDelegate, PresenterProtocol>
 @property(nonatomic, strong) Presenter *pt;
 @end
 @implementation MVPTableView
@@ -45,9 +45,15 @@ static NSString *const reuserId = @"reuserId";
     return self.pt.dataArray.count > indexPath.row ? self.pt.dataArray[indexPath.row] : nil;
 }
 
+#pragma mark --PresenterProtocol
+-(void)reloadUI {
+    [self reloadData];
+}
+
 -(Presenter *)pt {
     if (!_pt) {
         _pt = [Presenter attachView:self];
+        _pt.delegate = self;
     }
     return _pt;
 }

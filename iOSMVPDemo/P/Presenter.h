@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 @property (nonatomic, strong) NSMutableArray *dataArray;
-
+@property (nonatomic, weak) id<PresenterProtocol> delegate;
 /**
  * 绑定视图
  * @param view 要绑定的视图

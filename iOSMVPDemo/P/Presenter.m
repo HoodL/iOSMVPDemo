@@ -63,6 +63,14 @@
             UserInfoModel *model = self.dataArray[indexPath.row];
             model.num = [NSString stringWithFormat:@"%d",num];
         }
+        if (num == 100) {
+            UserInfoModel *model = self.dataArray[indexPath.row];
+            [self.dataArray removeAllObjects];
+            [self.dataArray addObject:model];
+            if(self.delegate && [self.delegate respondsToSelector:@selector(reloadUI)]) {
+                [self.delegate reloadUI];
+            }
+        }
     }
 }
 -(NSMutableArray *)dataArray {
